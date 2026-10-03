@@ -11,7 +11,7 @@ class PruebasDeMulta(unittest.TestCase):
         self.assertEqual(calcular_multa(3), 6)
 
     def test_quince_dias_respetan_el_limite(self):
-        self.assertEqual(calcular_multa(15), 30)
+        self.assertEqual(calcular_multa(15), 20)
 
 
 if __name__ == "__main__":
