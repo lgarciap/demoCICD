@@ -1,3 +1,3 @@
 def calcular_multa(dias):
-    """Calcula Q2 por día, con un máximo de Q20."""
+    """Aún no valida días negativos; esta etapa muestra el incidente."""
     return min(dias * 2, 20)
