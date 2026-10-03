@@ -1,3 +1,3 @@
 def calcular_multa(dias):
-    """Cambio incorrecto conservado para mostrar una regresión."""
-    return 20
+    """Calcula Q2 por día, con un máximo de Q20."""
+    return min(dias * 2, 20)
